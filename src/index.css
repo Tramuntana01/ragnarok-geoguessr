@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Small polish */
+:root { color-scheme: dark; }
+button:disabled { opacity: .6; cursor: not-allowed; }
