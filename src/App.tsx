@@ -38,8 +38,8 @@ const UI = {
     gameOver: '¡Game Over!',
     created: 'Creado por A.Tramuntana',
     language: 'Idioma',
-    english: 'English',
-    spanish: 'Español'
+    english: 'Change to English',
+    spanish: 'Cambiar a Español'
   },
   en: {
     title: 'Ragnarok GeoGuessr',
@@ -67,8 +67,8 @@ const UI = {
     gameOver: 'Game Over!',
     created: 'Created by A.Tramuntana',
     language: 'Language',
-    english: 'English',
-    spanish: 'Español'
+    english: 'Change to English',
+    spanish: 'Cambiar a Español'
   }
 } as const
 
@@ -84,7 +84,7 @@ const MAP_I18N: Record<string, {es: string; en: string; zoneEs?: string; zoneEn?
   dewata:      { es: 'Dewata',       en: 'Dewata' },
   einbech:     { es: 'Einbech',      en: 'Einbech' },
   einbroch:    { es: 'Einbroch',     en: 'Einbroch' },
-  geffenia:    { es: 'Geffenia',     en: 'Geffenia' },
+  geffen:      { es: 'Geffen',       en: 'Geffen' },
   glast:       { es: 'Glast Heim',   en: 'Glast Heim' },
   hugel:       { es: 'Hugel',        en: 'Hugel' },
   izlude:      { es: 'Izlude',       en: 'Izlude' },
@@ -115,7 +115,7 @@ const SAMPLE_DATA: Spot[] = [
   { id: 'dewata',        image: '/images/dewata.png',        map: 'Dewata',        aliases: [], zone: 'Dewata' },
   { id: 'einbech',       image: '/images/einbech.png',       map: 'Einbech',       aliases: [], zone: 'Einbech' },
   { id: 'einbroch',      image: '/images/einbroch.png',      map: 'Einbroch',      aliases: [], zone: 'Einbroch' },
-  { id: 'geffenia',      image: '/images/geffenia.png',      map: 'Geffenia',      aliases: [], zone: 'Geffen' },
+  { id: 'geffen',        image: '/images/geffen.png',        map: 'Geffen',        aliases: [], zone: 'Geffen' },
   { id: 'glast',         image: '/images/glast.png',         map: 'Glast Heim',    aliases: ['glast heim'], zone: 'Glast Heim' },
   { id: 'hugel',         image: '/images/hugel.png',         map: 'Hugel',         aliases: [], zone: 'Hugel' },
   { id: 'izlude',        image: '/images/izlude.png',        map: 'Izlude',        aliases: [], zone: 'Izlude' },
